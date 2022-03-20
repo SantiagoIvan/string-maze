@@ -12,4 +12,5 @@ Algoritmo resuelto utilizando depthfirst recursivo, iterativo y breadthfirst, pe
 ## Shortest path
 - Se comienza en la posicion (0,0) y se debe retornar la longitud del camino mas corto hacia (n-1,n-1)
 
-Algoritmo resuelto utilizando breadthfirst, ya que este algoritmo busca por niveles, siendo la raiz el nodo inicial. El nivel representa la distancia que hay hasta la raiz, por lo que si el nodo buscado se encuentra en el nivel n, esa distancia sera la minima
+Algoritmo resuelto utilizando breadthfirst, ya que este algoritmo busca por niveles, siendo la raiz el nodo inicial. El nivel representa la distancia que hay hasta la raiz, por lo que si el nodo buscado se encuentra en el nivel n, esa distancia sera la minima.
+Esto suponiendo que todas las aristas tienen el mismo peso. Si las aristas tuvieran peso diferente, deberia aplicar otras cositas, como vector de distancias y referencias al padre del nodo n-1 cuando voy construyendo el camino
